@@ -1,0 +1,21 @@
+.box-shipping {
+  /* border: 1px solid black; */
+  /* display: flex; */
+  /* justify-content: center; */
+  background-color: antiquewhite;
+  padding: 20px;
+  margin: 20px;
+}
+.box-billing {
+  /* display: flex; */
+  /* justify-content: center; */
+  background-color: antiquewhite;
+  padding: 20px;
+  margin: 20px;
+}
+/* form {
+} */
+.flex {
+  display: flex;
+  justify-content: center;
+}

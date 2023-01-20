@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(122, 151, 151);
+  padding: 50px;
+}
+
+form {
+  background-color: antiquewhite;
+  padding: 20px;
+  display: inline-block;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}

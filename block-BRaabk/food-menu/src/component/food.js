@@ -66,13 +66,14 @@ class Food extends React.Component {
               <>
                 <div className="menu-card" key={item.id}>
                   <figure>
-                    <img src={item.img} alt="/" />
+                    <img src={item?.img || "default.jpeg"} alt={item.title} />
                   </figure>
                   <div className="menu-details">
-                    <div className="menu-title">
+                    <div className="menu-title ">
                       <h2>{item.title}</h2>
-                      <small>{item.price}</small>
+                      <small>${item.price}</small>
                     </div>
+
                     <p>{item.desc}</p>
                   </div>
                 </div>

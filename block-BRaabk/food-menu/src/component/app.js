@@ -1,14 +1,16 @@
-import Food from '../component/food';
-import Header from '../component/header';
+import Food from "../component/food";
+import Header from "../component/header";
 
-import '../styles/index.css'
+import "../styles/index.css";
+import Footer from "./footer";
 
-function App(){
-  return(
+function App() {
+  return (
     <>
-     <Header />
-     <Food />
+      <Header />
+      <Food />
+      <Footer />
     </>
-  )
+  );
 }
 export default App;
